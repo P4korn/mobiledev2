@@ -23,6 +23,7 @@ class _AirQualityState extends State<AirQuality> {
     'Manchester'
   ];
 
+
   void fetchData() async {
     setState(() => isLoading = true);
     try {
