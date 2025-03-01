@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobiledev2/Api_/air_quality_page.dart';
+import 'package:mobiledev2/animate_pratice/traffic_light.dart';
 import 'package:mobiledev2/component/custom_card_page.dart';
 import 'package:mobiledev2/component/custome_profile_page.dart';
 import 'package:mobiledev2/component/theme.dart';
@@ -37,7 +38,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: isDarkMode ? AppThemes.darkTheme : AppThemes.lightTheme,
-      home: ProfilePageCard(
+      home: Trafficlight(
         toggleTheme: toggleTheme,
         isDarkMode: isDarkMode,
       ),
