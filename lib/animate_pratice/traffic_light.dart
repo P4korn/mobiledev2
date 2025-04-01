@@ -38,7 +38,7 @@ class _TrafficlightState extends State<Trafficlight> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TrafficLightwidget(
-                color: Colors.red,
+                color: Colors.green,
                 opacity: _currentLightIndex == 0 ? 1.0 : 0.3,
               ),
               SizedBox(
@@ -52,7 +52,7 @@ class _TrafficlightState extends State<Trafficlight> {
                 height: 20,
               ),
               TrafficLightwidget(
-                color: Colors.green,
+                color: Colors.red,
                 opacity: _currentLightIndex == 2 ? 1.0 : 0.3,
               ),
               SizedBox(
